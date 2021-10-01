@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <!--File written by Hamilton Nguyen-->
 <!--reference from   Huang, L., Zhao, H., Implementation of UR5 pick and place in ROS-Gazebo with a USB cam and vacuum grippers, (2018), GitHub repository, https://github.com/lihuang3/ur5_ROS-Gazebo.git-->
 
-<?xml version="1.0" encoding="utf-8"?>
 <launch>
 
   <!-- Load joint controller configurations from YAML file to parameter server -->
