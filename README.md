@@ -25,8 +25,10 @@ execute git clone  https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
 create a docker image and container -refer to the docker flowchart for the following commands in that repository.
 
 2nd part-create- access to the docker container and workspace then execute the following: 
-execute git clone https://github.com/hxn8439/computer_system_design_project.git 
-execute git clone https://github.com/hxn8439/universal_robot
+- execute git clone https://github.com/hxn8439/computer_system_design_project.git 
+- execute git clone https://github.com/hxn8439/universal_robot.git
+- Also if you need to update the computer_system_design_project folder perform this task:
+- execute git pull https://github.com/hxn8439/computer_system_design_project.git
 
 3rd part- grant file access on python files in computer_system_design_project in master source folder. 
 execute chmod 
