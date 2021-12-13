@@ -1,4 +1,4 @@
-### Automation of the UR5 pick, place, and sort in ROS-Gazebo and real environment with a USB cam and vacuum grippers. 
+### Automation of the UR5 pick, place, and sort in ROS-Gazebo (virtual Environment) with a virtual USB cam and vacuum grippers. 
 
 This repository demonstrates UR5 pick, place, and sort in ROS and Gazebo. The UR5 uses a USB cam to detect a color object (e.g. red box) on a conveyor belt ([`ur5_vision.py`]), and it publish the position. Then, the UR5 plans its motion ([`ur5_mp.py`]) to follow the object. Once the end-effector is close to the object, it picks up the object with the vacuum grippers by turning on ([`ur5_gripper.py`]). Note that the vacuum gripper has only one source of suction. 
 
@@ -48,4 +48,4 @@ execute chmod
     Huang, L., Zhao, H., Implementation of UR5 pick and place in ROS-Gazebo with a USB cam and vacuum grippers, (2018), GitHub repository, https://github.com/lihuang3/ur5_ROS-Gazebo.git
   ```
 
-__######## Warning! The rest of this README is still under construction ###########__
+__######## Attention: This repository is closed for the senior design project and will discontinue the development as of 12/13/2021. H. Nguyen 12/13/2021###########__
