@@ -4,7 +4,6 @@ This repository demonstrates UR5 pick, place, and sort in ROS and Gazebo. The UR
 
 - Video demos:
   [`Simulation video`]()
-  [`Hardware video`]()
 
 - Citation of this repository: 
   ```
