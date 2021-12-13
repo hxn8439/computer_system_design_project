@@ -3,7 +3,7 @@
 This repository demonstrates UR5 pick, place, and sort in ROS and Gazebo. The UR5 uses a USB cam to detect a color object (e.g. red box) on a conveyor belt ([`ur5_vision.py`]), and it publish the position. Then, the UR5 plans its motion ([`ur5_mp.py`]) to follow the object. Once the end-effector is close to the object, it picks up the object with the vacuum grippers by turning on ([`ur5_gripper.py`]). Note that the vacuum gripper has only one source of suction. 
 
 - Video demos:
-  [`Simulation video`]()
+  [`Simulation video`](https://www.youtube.com/watch?v=Yj5DEocFa48)
 
 - Citation of this repository: 
   ```
