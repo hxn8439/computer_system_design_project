@@ -30,8 +30,9 @@ create a docker image and container -refer to the docker flowchart for the follo
 - execute git pull https://github.com/hxn8439/computer_system_design_project.git
 
 3rd part- grant file access on python files in computer_system_design_project in master source folder. 
-execute chmod 
-
+```
+$ sudo chmod 777 name.py
+```
 - Build the code under directory `ur_ws/`,
   ```
   $ catkin clean
