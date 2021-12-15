@@ -15,25 +15,20 @@ This repository demonstrates UR5 pick, place, and sort in ROS and Gazebo. The UR
 - Refer to dockerHub link https://hub.docker.com/repository/docker/hxn8439/ros_melodic for the exact copy of the docker image file. 
 - be familiar with git commands. 
 
-1. execute in unbuntu terminal CLI 
+1. Execute in ubuntu terminal CLI. 
 ```
-git clone  https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
+$ sudo git clone  https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
 ```
-
-
-- Once that done, execute a script to create a container in order to build a catkin workspace for the ROS. This repository can be found here: https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
-- Refer to docker commands procedural map that is enclosed in the repository that accompany with the docker scripts. follow the flowchart to create a docker image and a container.  
-- Make sure to delete a pre-installed folder name universal_robot in the src folder in the catkin_ws. 
-- execute in the catkin workspace 
+2. Create a docker image and container -refer to the docker flowchart for the following commands in that repository to build a catkin workspace using ROS.
+3. Within the docker container, make sure to delete a pre-installed folder name universal_robot in the src folder from the catkin_ws. 
+```
+root@3id89cj5:~/catkin_ws# rm -rf universal_robot
+```
+4. Navigate to the root folder of the catkin workspace and execute."catkin clean" is to wipe and clean catkin workspace. make sure that when executing this command, it has to be at the root of the workspace folder e.g. /catkin_ws/ 
 ```
 root@3id89cj5:~/catkin_ws# catkin clean
 ```
-- "catkin clean" is to wipe and clean catkin workspace. make sure that when executing this command, it has to be at the root of the workspace folder e.g. /catkin_ws/ 
 
-
-1st part-create docker image and container
-execute git clone  https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
-create a docker image and container -refer to the docker flowchart for the following commands in that repository.
 
 2nd part-create- access to the docker container and workspace then execute the following: 
 - execute git clone https://github.com/hxn8439/computer_system_design_project.git 
