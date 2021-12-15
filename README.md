@@ -16,35 +16,42 @@ This repository demonstrates UR5 pick, place, and sort in ROS and Gazebo. The UR
 - be familiar with git commands. 
 
 1. Execute in ubuntu terminal CLI. 
+$ 
 ```
-$ sudo git clone  https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
+sudo git clone  https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
 ```
 2. Create a docker image and container -refer to the docker flowchart for the following commands in that repository to build a catkin workspace using ROS.
 3. Within the docker container, make sure to delete a pre-installed folder name universal_robot in the src folder from the catkin_ws. 
+root@3id89cj5:~/catkin_ws/src#
 ```
-root@3id89cj5:~/catkin_ws/src# rm -rf universal_robot
+rm -rf universal_robot
 ```
 4. Navigate to the root folder of the catkin workspace and execute."catkin clean" is to wipe and clean catkin workspace. make sure that when executing this command, it has to be at the root of the workspace folder e.g. /catkin_ws/ 
+root@3id89cj5:~/catkin_ws#
 ```
-root@3id89cj5:~/catkin_ws# catkin clean
+ catkin clean
 ```
 5. Navigate to src folder in catkin workspace and execute the following CLI commands:
+root@3id89cj5:~/catkin_ws/src#
  ```
- root@3id89cj5:~/catkin_ws/src# git clone https://github.com/hxn8439/computer_system_design_project.git 
- root@3id89cj5:~/catkin_ws#/src# git clone https://github.com/hxn8439/universal_robot.git
+  git clone https://github.com/hxn8439/computer_system_design_project.git 
+  git clone https://github.com/hxn8439/universal_robot.git
  ```
-6. Navigate to computer_system_design_project folder and grant super user access for the python files by execuitng the following CLI commands: 
+6. Navigate to computer_system_design_project folder and grant super user access for the python files by execuitng the following CLI commands:
+root@3id89cj5:~/catkin_ws/src/computer_system_design_project# 
 ```
-root@3id89cj5:~/catkin_ws/src/computer_system_design_project# sudo chmod +x*.py
+ sudo chmod +x*.py
 ```
 7. Navigate back to the root folder of the catkin workspace and build the ROS packages under directory using CLI commands:
+root@3id89cj5:~/catkin_ws#
   ```
-  root@3id89cj5:~/catkin_ws# catkin_make
-  root@3id89cj5:~/catkin_ws# source devel/setup.bash  
+   catkin_make
+   source devel/setup.bash  
   ```
 8. Execute the ROS packages with ROS and Gazebo
+root@3id89cj5:~/catkin_ws# 
   ```
-  root@3id89cj5:~/catkin_ws# roslaunch ur5_notebook initialize.launch 
+  roslaunch ur5_notebook initialize.launch 
   ```
 #### . References 
   ```
