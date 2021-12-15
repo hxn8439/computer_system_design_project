@@ -7,18 +7,28 @@ This repository demonstrates UR5 pick, place, and sort in ROS and Gazebo. The UR
 
 - Citation of this repository: 
   ```
-    Nguyen, H., Yi, J., Vu, T., Wellington, M., Safder, M., Automation of the UR5 pick, place, and sort in ROS-Gazebo and real environment with a USB cam and vacuum grippers (Melodic Distribution), (2021), Github repository, https://github.com/hxn8439/computer_system_design_project.git
+    Nguyen, H., Yi, J., Vu, T., Wellington, M., Safder, M., Automation of the UR5 pick, place, and sort in ROS-Gazebo and real environment with a USB cam and vacuum grippers (Melodic Distribution), (2021), Github repository, https://github.com/hxn8439/computer_system_design_project_Virtual.git
   ```
 #### How to use this repository
 - This project was executed in Ubuntu 20.04 with ROS Melodic.
-- Make sure you have the latest ROS package name universal robot to run with this repository. This repository is found here http://github.com/hxn8439/universal_robot
-- make sure that you installed docker on Ubuntu 20.04 and create an image file using Melodic distribution. Once that done, execute a script to
-  create a container in order to build a catkin workspace for the ROS. This repository can be found here: https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
-- Refer to docker commands map that is enclosed to the repository that holds the docker scripts. follow the flowchart to create a docker image and a container.  
-- Make sure to delete a pre-installed folder name universal_robot in the src folder in the catkin_ws. 
-- execute in the catkin workspace "catkin clean" to clean up the workspace. make sure that when executing this command, it has to be at the highest workspace folder e.g. /catkin_ws/ 
+- make sure that you installed docker on Ubuntu 20.04 and create an image file using Melodic distribution. 
+- Refer to dockerHub link https://hub.docker.com/repository/docker/hxn8439/ros_melodic for the exact copy of the docker image file. 
+- be familiar with git commands. 
 
-Download repositories using git.
+1. execute in unbuntu terminal CLI git clone  https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
+
+
+
+- Once that done, execute a script to create a container in order to build a catkin workspace for the ROS. This repository can be found here: https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
+- Refer to docker commands procedural map that is enclosed in the repository that accompany with the docker scripts. follow the flowchart to create a docker image and a container.  
+- Make sure to delete a pre-installed folder name universal_robot in the src folder in the catkin_ws. 
+- execute in the catkin workspace 
+```
+root@3id89cj5:~/catkin_ws# catkin clean
+```
+- "catkin clean" is to wipe and clean catkin workspace. make sure that when executing this command, it has to be at the root of the workspace folder e.g. /catkin_ws/ 
+
+
 1st part-create docker image and container
 execute git clone  https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
 create a docker image and container -refer to the docker flowchart for the following commands in that repository.
