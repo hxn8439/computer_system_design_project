@@ -48,7 +48,7 @@ root@3id89cj5:~/catkin_ws#
    catkin_make
    source devel/setup.bash  
   ```
-8. Execute the ROS packages with ROS and Gazebo
+8. Execute the ROS packages with ROS and the Gazebo and RVIZ GUI will display the virtual simulation environment. 
 root@3id89cj5:~/catkin_ws# 
   ```
   roslaunch ur5_notebook initialize.launch 
