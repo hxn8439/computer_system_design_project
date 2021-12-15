@@ -15,8 +15,8 @@ This repository demonstrates UR5 pick, place, and sort in ROS and Gazebo. The UR
 - Refer to dockerHub link https://hub.docker.com/repository/docker/hxn8439/ros_melodic for the exact copy of the docker image file. 
 - be familiar with git commands. 
 
-1. Execute in ubuntu terminal CLI. 
-$ 
+1. Execute in ubuntu terminal CLI.
+~$ 
 ```
 sudo git clone  https://github.com/hxn8439/Ubuntu_18.04_Docker_Script
 ```
