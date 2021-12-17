@@ -5,7 +5,7 @@ This repository demonstrates UR5 pick, place, and sort in ROS and Gazebo. The UR
 - Video demos:
   [`Simulation video`](https://www.youtube.com/watch?v=Yj5DEocFa48)
   
-- Check our blogpost for full documentations and scrum development of this repository.
+- Check our blogpost for comprehensive documentations and the scrum development of this repository.
   https://blog.uta.edu/cseseniordesign/2021/12/10/project-identify-classify-idc/
 
 - Citation of this repository: 
